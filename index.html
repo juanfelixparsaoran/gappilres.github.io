@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilpres Visualisation</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="content">
+        <div class="web-title">
+            <div>
+                <li class="vis1 selected">Gap Suara pada Kelurahan Terbanyak</li>
+                <li class="vis2">Gap Suara pada Kecamatan Terbanyak</li>
+                <li class="vis3">Gap Suara dengan perbedaan Terbesar</li>
+              
+            </div>
+            <h1> </h1>
+            <p id="desc-vis">Visualisasi ini menggambarkan kecamatan-kecamatan di Provinsi Jawa Timur yang didapati adanya gap suara pada rekapitulasi di tingkat kecamatan dan tingkat kota</p>
+            
+            
+            <div class="lab-sel">
+                <label></label>
+                <div class="selectClass"></div>
+            </div>
+            
+        
+            </select>
+            
+        </div>
+        
+        <div class="svg-class">
+        <svg class="map"></svg>
+        
+        </div>
+
+    </div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
