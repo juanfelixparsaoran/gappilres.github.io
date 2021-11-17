@@ -307,7 +307,7 @@ function drawBarChartJabar(data){
         .attr("height", function(d) {console.log (d.value); console.log(d.region); return Math.abs(barHeight - yGap1(Math.abs(d.value))) });
 
 
-        var marginAxis = {left : 45, top : 533, right: 0, bottom:0}
+        var marginAxis = {left : 50, top : 533, right: 0, bottom:0}
             g.append("g")
             .attr('transform',`translate(${marginAxis.left},${marginAxis.top})`)
             .attr('class','axisPercentage')
